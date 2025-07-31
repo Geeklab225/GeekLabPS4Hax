@@ -2,16 +2,51 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>GeekLabPS4Hax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeekLabPS4Hax v1</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #00ff99;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #00ff99;
+    }
+    .btn-paypal {
+      background-color: #00ff99;
+      color: black;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .qr {
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur GeekLabPS4Hax v1</h1>
-  <p>Page d’accueil en ligne, powered by GitHub Pages 🚀</p>
+
+  <h1>GeekLabPS4Hax v1</h1>
+  <p>Projet de jailbreak PS4 par GeekLab225</p>
+
+  <!-- Bouton PayPal -->
+  <form action="https://www.paypal.com/donate" method="post" target="_blank">
+    <input type="hidden" name="business" value="geeklab225@gmail.com" />
+    <input type="hidden" name="currency_code" value="USD" />
+    <input type="submit" class="btn-paypal" value="Faire un don via PayPal" />
+  </form>
+
+  <!-- QR Code -->
+  <div class="qr">
+    <p>Scanne le QR Code pour accéder au projet :</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://geeklab225.github.io/GeekLabPS4Hax" alt="QR Code vers GeekLabPS4Hax">
+  </div>
+
 </body>
 </html>
-<!-- refresh mer. 30 juil. 2025 21:24:03 GMT -->
-<!-- refresh mer. 30 juil. 2025 21:51:28 GMT -->
-<!-- force refresh mer. 30 juil. 2025 22:12:26 GMT -->
-<!-- Force rebuild mer. 30 juil. 2025 22:13:46 GMT -->
-<!-- Refresh GitHub Pages @ $(date) -->
-
